@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-TableViewCellSwift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-TableViewCellSwiftTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-TableViewCellSwiftUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SDWebImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>9006A458C238F408CFE782D1EFD3DC2D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B618FE1EA2A044BBBBBB016425182AAA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B69719AF112F6E8173FB8C72524A104B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D49209D34BAFE2D9239E4D5E07226518</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

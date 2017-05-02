@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="FourthHeaderTableViewCell" customModule="TableViewCellSwift" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <frame key="frameInset" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Hwv-wB-1aq">
+                        <constraints>
+                            <constraint firstAttribute="width" constant="43" id="0xQ-jd-Kqy"/>
+                            <constraint firstAttribute="width" secondItem="Hwv-wB-1aq" secondAttribute="height" multiplier="1:1" id="OVI-sP-3GR"/>
+                            <constraint firstAttribute="height" constant="43" id="kTU-Gh-uUX"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pZc-n4-HVJ">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="43" id="tmb-cL-nHH"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="pZc-n4-HVJ" secondAttribute="trailing" constant="-8" id="4kY-mL-bBV"/>
+                    <constraint firstItem="Hwv-wB-1aq" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="-8" id="GTU-FH-3jt"/>
+                    <constraint firstItem="pZc-n4-HVJ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-8" id="TKk-d4-kc7"/>
+                    <constraint firstItem="pZc-n4-HVJ" firstAttribute="leading" secondItem="Hwv-wB-1aq" secondAttribute="trailing" constant="17" id="k90-hh-lmw"/>
+                    <constraint firstItem="Hwv-wB-1aq" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-8" id="nBO-1R-fUe"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="headerImageView" destination="Hwv-wB-1aq" id="7OT-t7-ihE"/>
+                <outlet property="headerLabel" destination="pZc-n4-HVJ" id="nFP-7M-tJ0"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>
